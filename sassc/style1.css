@@ -1,0 +1,115 @@
+body {
+  background-color: #81959a;
+  width: 100%;
+  margin: 0;
+}
+body .container {
+  width: 75%;
+  margin: 0 auto;
+  color: #180b13;
+}
+body .container h1 {
+  color: #1b1427;
+  text-align: center;
+}
+body .container #gato {
+  width: 200px;
+  height: 200px;
+}
+body .container #gato else {
+  border: solid 5px #180b13;
+}
+body .container #perro {
+  width: 200px;
+  height: 200px;
+}
+body .container #perro else {
+  border: solid 5px #180b13;
+}
+body .container .listaIconos {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .container .listaIconos .icon-10px {
+  font-size: 10px;
+}
+body .container .listaIconos .icon-10px img {
+  width: 10px;
+  height: 10px;
+  border: solid 1px white;
+}
+body .container .listaIconos .icon-10px img else {
+  border: solid 5px #180b13;
+}
+body .container .listaIconos .icon-40px {
+  font-size: 40px;
+}
+body .container .listaIconos .icon-40px img {
+  width: 40px;
+  height: 40px;
+  border: solid 1px white;
+}
+body .container .listaIconos .icon-40px img else {
+  border: solid 5px #180b13;
+}
+body .container .listaIconos .icon-60px {
+  font-size: 60px;
+}
+body .container .listaIconos .icon-60px img {
+  width: 60px;
+  height: 60px;
+  border: solid 1px white;
+}
+body .container .listaIconos .icon-60px img else {
+  border: solid 5px #180b13;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+}
+.descriptionContainer #texto-nombre {
+  color: white;
+}
+.descriptionContainer #texto-apellido {
+  color: red;
+}
+.descriptionContainer #texto-edad {
+  color: orange;
+}
+
+.textoGiganteEscalado {
+  font-size: 24px;
+  color: rgb(229, 240, 21);
+}
+
+.full-name {
+  font-size: 24px;
+  color: rgb(229, 240, 21);
+}
+
+.contact-info {
+  font-size: 24px;
+  color: rgb(52, 58, 90);
+}
+
+.about {
+  font-size: 24px;
+  color: rgb(52, 90, 87);
+  border: solid 5px #180b13;
+}
+
+.section {
+  font-size: 24px;
+  padding: 30px 10px;
+}
+
+.name {
+  font-size: 24px;
+  border-bottom: solid 1px #180b13;
+  border-top: solid 1px #180b13;
+  padding: 15px 15px;
+  background-color: rgb(215, 88, 217);
+}
+
+/*# sourceMappingURL=style1.css.map */
